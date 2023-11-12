@@ -5,6 +5,12 @@
 
 class BlogPost;
 
+class BlogPostStateException
+{
+public:
+    BlogPostStateException(std::string error);
+};
+
 class BlogPostState
 {
 protected:

@@ -12,6 +12,7 @@ class BlogPost
     friend class BlogPostState;
     friend class BlogPostDraftState;
     friend class BlogPostPublishedState;
+    friend class BlogPostArchivedState;
 
 protected:
     std::shared_ptr<BlogPostState> _state;

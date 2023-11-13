@@ -7,7 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "*.cpp",
+                "src/*.cpp",
                 "-o",
                 "${workspaceFolder}/build/app",
                 "-std=c++2a"
